@@ -12,8 +12,36 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    
-
-
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo.svg" alt="header logo">
+        </div>
+        <nav class="navegacion">
+            <a href="#" class="navegacion__link">Iniciar Sesion</a>
+            <a href="#" class="navegacion__link">crear cuenta</a>
+            <a href="#" class="navegacion__link registrar">Registar restaurant</a>
+        </nav>
+    </header>
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu restaurante favorita...</h2>
+                <form action="" class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="restaurant" class="formulario__label">Restaurant</label>
+                        <input type="text" id="restaurant" class="formulario__input" placeholder="Peruvian food">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="platillo" class="formulario__label">Platillo</label>
+                        <input type="text" id="platillo" class="formulario__input" placeholder="Peruvian....">
+                    </div>
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </form>
+            </div>
+            <div class="formulario__imagen">
+                <img class="form-img" src="build/img/dibujo_repartidor.svg" alt="imagen contenedor">
+            </div>
+        </div>
+    </section>
 </body>
 </html>
